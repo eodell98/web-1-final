@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav {
+  background-color: #dca7a7;
+  padding: 0.2em;
+}
+ul {
+  list-style-type: none;
+  font-family: montserrat;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #284d58;
+}
+
+a{
+  text-decoration: none;
+  color: #284d58;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mentor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mentor div {
+  width: 200px;
+}
+
+.describe {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h2 {
+  font-family: courgette;
+  font-size: 3em;
+  color: #284d58;
+}
+
+p {
+  font-family: montserrat;
+  font-size: 1.5em;
+  color: #3a808a;
+}
+
+.images {
+  width: 600px;
+  height: 340px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  
+}
+h3 {
+  font-family: montserrat;
+  font-size: 1em;
+  color: #284d58;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+}
+
+
+@media (max-width: 600px){
+  ul {
+    font-size: .6em;}
+}
+@media (max-width: 600px){
+  h2 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px){
+  h3 {
+    font-size: .5em;
+  }
+}
+@media (max-width: 600px){
+  p {
+    font-size: .75em;
+  }
+}
+@media (max-width: 600px){
+  images {
+    width: 100%;
+    height: auto;
+  }

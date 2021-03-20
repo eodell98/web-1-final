@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #dca7a7;
+  padding: .2em;
+}
+ul {
+  list-style-type: none;
+  font-family: montserrat;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #284d58;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2em;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #284d58;
+}
+
+.personal {
+  background-color: #f6f0ce;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -.4em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-family: courgette;
+  font-size: 2em;
+  color: #284d58;
+  text-align: center;
+  
+  
+  
+}
+
+h3 {
+  font-family: montserrat;
+  font-size: 1em;
+  color: #284d58;
+}
+
+h4 {
+  font-family: montserrat;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #3a808a;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+
+
+#directory {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.container {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+  border-radius: 11px;
+  margin: 2em;
+  
+}
+
+
+
+.card-heading-1  {
+background-image:
+  url("https://acs-h.assetsadobe.com/is/image//content/dam/cen/96/14/09614-careertips-wordcloud.jpg/?$responsive$&wid=700&qlt=90,0&resMode=sharp2");
+  background-size: cover;
+width: 350px;
+  height: 250px;
+  border-radius: 11px;
+}
+    
+.card-heading-2 {
+background-image:
+  url("https://images.ctfassets.net/p0qf7j048i0q/CC1408DB6F0A41AE9BB7F00758C9EC15/ee520f2ffbcc1ddfb8c619020965b7c7/178361272.jpg?w=1000&h=750&fit=fill&fm=webp");
+    background-size: cover;
+  width: 350px;
+  height: 250px;
+  border-radius: 11px;
+}
+
+.card-heading-3 {
+background-image:
+url("https://images.unsplash.com/photo-1606123501153-25a6e379847b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  width: 350px;
+  height: 250px;
+  border-radius: 11px;
+}
+  .card-heading-4 {
+background-image: url("https://images.unsplash.com/photo-1611850748727-fa3a69ddbdc1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80");
+background-size: cover;
+    width: 350px;
+  height: 250px;
+  border-radius: 11px;
+}
+    .card-heading-5 {
+background-image:
+url("https://images.unsplash.com/photo-1614607206234-f7b56bdff6e7?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+      background-size: cover;
+      width: 350px;
+  height: 250px;
+  border-radius: 11px;
+    }
+     
+ .card-heading-6 {
+background-image:     url("https://gbr.pepperdine.edu/wp-content/uploads/2018/07/Financial-Analysis-shutterstock_584096713-790x400.jpg");
+    background-size: cover;
+   width: 350px;
+  height: 250px;
+  border-radius: 11px;
+}
+
+.card-heading-1 h2 {
+  background: #3a808a;
+  }
+.card-heading-2 h2 {
+  background: #3a808a;
+  }
+.card-heading-3 h2 {
+  background: #3a808a;
+  }
+.card-heading-4 h2 {
+  background: #3a808a;
+  }
+.card-heading-5 h2 {
+  background: #3a808a;
+  } 
+.card-heading-6 h2 {
+  background: #3a808a;
+  }
+
+.card-heading-1 h2:hover{
+  background: #dca7a7; 
+}
+.card-heading-2 h2:hover{
+  background: #dca7a7; 
+}
+.card-heading-3 h2:hover{
+  background: #dca7a7; 
+}
+.card-heading-4 h2:hover{
+  background: #dca7a7; 
+}
+.card-heading-5 h2:hover{
+  background: #dca7a7; 
+}
+.card-heading-6 h2:hover{
+  background: #dca7a7; 
+}
+
+
+footer {
+   text-align: center;
+  margin-top: 3em;
+}
+
+
+@media (max-width: 600px){
+  ul {
+    font-size: .6em;}
+}
+@media (max-width: 600px){
+  h2 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px){
+  h3 {
+    font-size: .5em;
+  }
+}
+@media (max-width: 600px){
+  h4 {
+    font-size: .65em;
+  }
+}
+
+@media (max-width: 600px){
+  card-heading-1 {
+    width: 200px;
+    height: auto;
+  }
+}
+
+
