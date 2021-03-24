@@ -92,8 +92,7 @@ h4 {
 
 
 .card-heading-1  {
-background-image:
-  url("images/town.jpg");
+background-image: "images/town.jpg";
   background-size: cover;
 width: 350px;
   height: 250px;
@@ -101,8 +100,7 @@ width: 350px;
 }
     
 .card-heading-2 {
-background-image:
-  url("images/mentor.jpg");
+background-image: "images/mentor.jpg";
     background-size: cover;
   width: 350px;
   height: 250px;
@@ -110,23 +108,21 @@ background-image:
 }
 
 .card-heading-3 {
-background-image:
-url("images/leader.jpg");
+background-image:"images/leader.jpg";
   background-size: cover;
   width: 350px;
   height: 250px;
   border-radius: 11px;
 }
   .card-heading-4 {
-background-image: url("images/event.jpg");
+background-image: "images/event.jpg";
 background-size: cover;
     width: 350px;
   height: 250px;
   border-radius: 11px;
 }
     .card-heading-5 {
-background-image:
-url("images/town.jpg");
+background-image: "images/town.jpg";
       background-size: cover;
       width: 350px;
   height: 250px;
@@ -134,7 +130,7 @@ url("images/town.jpg");
     }
      
  .card-heading-6 {
-background-image:     url("images/Financial-Analysis.jpg");
+background-image: "images/Financial-Analysis.jpg";
     background-size: cover;
    width: 350px;
   height: 250px;
