@@ -93,7 +93,7 @@ h4 {
 
 .card-heading-1  {
 background-image:
-  url("https://acs-h.assetsadobe.com/is/image//content/dam/cen/96/14/09614-careertips-wordcloud.jpg/?$responsive$&wid=700&qlt=90,0&resMode=sharp2");
+  url("images/town.jpg");
   background-size: cover;
 width: 350px;
   height: 250px;
@@ -102,7 +102,7 @@ width: 350px;
     
 .card-heading-2 {
 background-image:
-  url("https://images.ctfassets.net/p0qf7j048i0q/CC1408DB6F0A41AE9BB7F00758C9EC15/ee520f2ffbcc1ddfb8c619020965b7c7/178361272.jpg?w=1000&h=750&fit=fill&fm=webp");
+  url("images/mentor.jpg");
     background-size: cover;
   width: 350px;
   height: 250px;
@@ -111,14 +111,14 @@ background-image:
 
 .card-heading-3 {
 background-image:
-url("https://images.unsplash.com/photo-1606123501153-25a6e379847b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+url("images/leader.jpg");
   background-size: cover;
   width: 350px;
   height: 250px;
   border-radius: 11px;
 }
   .card-heading-4 {
-background-image: url("https://images.unsplash.com/photo-1611850748727-fa3a69ddbdc1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80");
+background-image: url("images/event.jpg");
 background-size: cover;
     width: 350px;
   height: 250px;
@@ -126,7 +126,7 @@ background-size: cover;
 }
     .card-heading-5 {
 background-image:
-url("https://images.unsplash.com/photo-1614607206234-f7b56bdff6e7?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+url("images/town.jpg");
       background-size: cover;
       width: 350px;
   height: 250px;
@@ -134,7 +134,7 @@ url("https://images.unsplash.com/photo-1614607206234-f7b56bdff6e7?ixid=MXwxMjA3f
     }
      
  .card-heading-6 {
-background-image:     url("https://gbr.pepperdine.edu/wp-content/uploads/2018/07/Financial-Analysis-shutterstock_584096713-790x400.jpg");
+background-image:     url("images/Financial-Analysis.jpg");
     background-size: cover;
    width: 350px;
   height: 250px;
